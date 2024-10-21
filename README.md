@@ -12,6 +12,7 @@ An audio Codec model consisting of encoder, quantizer, and decoder. Its design p
 
 
 **Comparison to the Existing Models**
+
 | Model | #Params (Million) | kbps |
 | ----- | ----- | ----- | 
 | EnCodec | 14.9 | 3, 6 |
