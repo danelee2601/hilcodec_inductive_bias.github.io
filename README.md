@@ -1,8 +1,25 @@
+# HANCE Audio Codec (HAC) (ver. 21.10.2024)
+
+An audio Codec model consisting of encoder, quantizer, and decoder. Its design principals are 1) light-weight, 2) high compression rate, and 3) high fidelity.
+
+
+
 # Model Specifications
 
 - model size: 4M parameters (16MB)
 - kbps (kilobits per sec): 1.35
     - num_tokens/s: 75
+
+
+**Comparison to the Existing Models**
+| Model | #Params (Million) | kbps |
+| ----- | ----- | ----- | 
+| EnCodec | 14.9 | 3, 6 |
+| DAC | 74.18 | 4, 9 |
+| HILCodec | 9.6 | 3, 6 |
+| HAC | 4 (16MB) | 1.35 |
+
+
 
 Remarks
 - the lightest model of all known models with the highest compression rate.
