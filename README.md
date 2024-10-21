@@ -18,5 +18,7 @@ Remarks
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/    | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 
-
+# Analysis
+ 
+ in my ppt.
 
