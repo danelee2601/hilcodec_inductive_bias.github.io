@@ -21,6 +21,10 @@ An audio Codec model consisting of encoder, quantizer, and decoder. Its design p
 | HAC | 4 (16MB) | 1.35 |
 
 
+<div style="text-align: left;">
+  <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/table_fig.png?raw=true" alt="method" style="width: 50%;">
+</div>
+
 
 Remarks
 - the lightest model of all known models with the highest compression rate.
