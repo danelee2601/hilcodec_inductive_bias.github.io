@@ -22,7 +22,7 @@ An audio Codec model consisting of encoder, quantizer, and decoder. Its design p
 
 
 <div style="text-align: left;">
-  <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/table_fig.png?raw=true" alt="method" style="width: 50%;">
+  <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/table_fig.png?raw=true" alt="method" style="width: 70%;">
 </div>
 
 
