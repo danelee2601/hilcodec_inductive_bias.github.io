@@ -28,11 +28,18 @@ Remarks
 
 
 # Results
-| Ground Truth (test sample) | Reconstructed Sample |
+<!-- | Ground Truth (test sample) | Reconstructed Sample |
 |----------------------------|----------------------|
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/0.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/0.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/1.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/1.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
-| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
+| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | -->
+
+
+| Ground Truth (test sample) | Reconstructed Sample |
+|----------------------------|----------------------|
+| <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/0.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> | <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/0.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> |
+| <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/1.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> | <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/1.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> |
+| <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> | <div><audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio></div> |
 
 
 
