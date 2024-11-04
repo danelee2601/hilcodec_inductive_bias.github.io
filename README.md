@@ -45,7 +45,7 @@ An audio codec model consisting of encoder, quantizer, and decoder. Its design p
   - perceptual loss with Whisper
 
 
-**Comparison to the Existing Models**
+### Comparison to the Existing Models
 
 | Model | #Params (Million) | kbps |
 | ----- | ----- | ----- | 
