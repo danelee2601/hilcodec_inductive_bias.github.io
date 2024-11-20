@@ -3,16 +3,17 @@
   <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/hac_logo.png?raw=true" alt="method" style="width: 30%;">
 </div>
 
-# HANCE Audio Codec (HAC) (ver. 21.10.2024)
+# HANCE Audio Codec (HAC) (ver.1, Nov 2024)
 
-An audio codec model consisting of encoder, quantizer, and decoder. Its design principals are 1) light-weight, 2) high compression rate, and 3) high fidelity.
+A state-of-the-art audio codec model, developed by HANCE, consisting of encoder, quantizer, and decoder. Its design principals are 1) light-weight, 2) high compression rate, and 3) high fidelity.
 
 
 
 # Model Specifications
 
 
-### ver. 02 (04.11.2024)
+<details>
+<summary>### ver.1.2 (20.11.2024)</summary>
 - model size: 4M parameters (8MB in bfloat16, 16MB in float32)
 - kbps (kilobits per sec): 1.35
     - number of tokens/s: 75
@@ -30,9 +31,10 @@ An audio codec model consisting of encoder, quantizer, and decoder. Its design p
   - input scaling (z-norm)
   - feature map scaling with standard deviation instead of absolute magnitude
   - scales are computed with EMA
+</details>
 
 
-### ver. 01 (21.10.2024)
+### ver.1.1 (21.10.2024)
 - model size: 4M parameters (8MB in bfloat16, 16MB in float32)
 - kbps (kilobits per sec): 1.35
     - number of tokens/s: 75
