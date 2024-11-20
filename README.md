@@ -41,9 +41,9 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 
 | Model | #Params (Million) | kbps |
 | ----- | ----- | ----- | 
-| EnCodec | 14.9 | 3, 6 |
-| DAC | 74.18 | 4, 9 |
-| HILCodec | 9.6 | 3, 6 |
+| EnCodec | 14.9 | {3, 6} |
+| DAC | 74.18 | {4, 9} |
+| HILCodec | 9.6 | {3, 6} |
 | HAC | 6 | 3.6 |
 
 
