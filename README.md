@@ -28,6 +28,7 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
     - multiple STFT spectrograms
   - GAN loss with
     - multiple STFT discriminator
+      - its training is stablized with a L2 discriminator loss instead of the hinge loss.
 - misc
   - input scaling
   - feature map scaling with standard deviation instead of absolute magnitude
@@ -60,6 +61,10 @@ NB! the training is still on-going. The results presented are from a trained mod
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/0.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-0.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.1-0.wav" type="audio/mpeg"></audio> |
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/1.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-1.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.1-1.wav" type="audio/mpeg"></audio> |
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-2.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.1-2.wav" type="audio/mpeg"></audio> |
+| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/3.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-3.wav" type="audio/mpeg"></audio> |
+| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/4.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-4.wav" type="audio/mpeg"></audio> |
+| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/5.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-5.wav" type="audio/mpeg"></audio> |
+| <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/6.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-6.wav" type="audio/mpeg"></audio> |
 
 
 # Metrics
