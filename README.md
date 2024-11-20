@@ -1,6 +1,3 @@
----
-title-heading: false
----
 
 <div style="text-align: center;">
   <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/hac_logo.png?raw=true" alt="method" style="width: 30%;">
