@@ -11,7 +11,7 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 
 # Model Specifications
 
-### ver.1.2 (20.11.2024)
+## ver.1.2 (20.11.2024)
 - model size: 6M parameters (12.2MB in bfloat16, 24.4MB in float32)
 - kbps (kilobits per sec): 3.6
     - number of tokens/s: 200
@@ -37,7 +37,7 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 
 
 
-### Comparison to the Existing Models
+## Comparison to the Existing Models
 
 | Model | #Params (Million) | kbps |
 | ----- | ----- | ----- | 
@@ -53,7 +53,18 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 
 
 
-# Results 
+# Experiments
+
+
+## Dataset
+
+The one provided by Peder, I call it Soundly Speech Dataset. It contains 79,997 speech sample pairs (clean speech, noisy speech) with audio length of 11s and sampling rate of 24khz. 
+In this experiment, I used 79,838 clean speech samples for training and 159 for validation. 
+During training, each audio sample is randmoly cropped into 1s clip and fed into our codec model, HAC -- a standard protocol in the audio codec liteature.
+
+
+
+## Results 
 NB! the training is still on-going. The results presented are from a trained model at a training step of 120k out of 500k.
 
 | Ground Truth (test sample) | Reconstructed Sample (v1.2) | Reconstructed Sample (v1.1) |
@@ -67,22 +78,17 @@ NB! the training is still on-going. The results presented are from a trained mod
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/6.wav" type="audio/mpeg"></audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v1.2-6.wav" type="audio/mpeg"></audio> |
 
 
-# Metrics
+## Metrics
 
 We present PESQ (Perceptual Evaluation of Speech Quality) and SI-SDR (Scale-Invariant Signal-to-Distortion Ratio).
 PESQ and SI-SDR scores are typically considered to be quite good when above 2.0, and 5.0, respectively.
 
 
-### Training History
+| Model | PESQ | SI-SDR |
+| ----- | ----- | ----- | 
+| HAC v1.2 | 2.35 | 8.1 |
 
 
-
-
-
-
-# Analysis
- 
- in my ppt.
 
 
 
