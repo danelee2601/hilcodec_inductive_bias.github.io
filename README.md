@@ -13,7 +13,7 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 
 
 <details>
-<summary>### ver.1.2 (20.11.2024)</summary>
+<summary><span style="font-size: 1.17em; font-weight: bold;">ver.1.2 (20.11.2024)</span></summary>
 - model size: 4M parameters (8MB in bfloat16, 16MB in float32)
 - kbps (kilobits per sec): 1.35
     - number of tokens/s: 75
@@ -34,7 +34,8 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
 </details>
 
 
-### ver.1.1 (21.10.2024)
+<details>
+<summary><span style="font-size: 1.17em; font-weight: bold;">ver.1.1 (21.10.2024)</span></summary>
 - model size: 4M parameters (8MB in bfloat16, 16MB in float32)
 - kbps (kilobits per sec): 1.35
     - number of tokens/s: 75
@@ -50,6 +51,7 @@ A state-of-the-art audio codec model, developed by HANCE, consisting of encoder,
     - multiple STFT discriminator
     - multiple filter band discriminator
   - perceptual loss with Whisper
+</details>
 
 
 ### Comparison to the Existing Models
