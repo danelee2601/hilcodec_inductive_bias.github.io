@@ -1,3 +1,8 @@
+
+<div style="text-align: left;">
+  <img src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/blob/main/fig/hac_logo.png?raw=true" alt="method" style="width: 30%;">
+</div>
+
 # HANCE Audio Codec (HAC) (ver. 21.10.2024)
 
 An audio codec model consisting of encoder, quantizer, and decoder. Its design principals are 1) light-weight, 2) high compression rate, and 3) high fidelity.
@@ -75,6 +80,8 @@ Remarks
 | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/test/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/v2_2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> | <audio controls><source src="https://github.com/danelee2601/hilcodec_inductive_bias.github.io/raw/refs/heads/main/audio_samples/rec/2.wav" type="audio/mpeg">Your browser does not support the audio element.</audio> |
 
 
+# Objective Evaluations
+PESQ
 
 
 # Analysis
