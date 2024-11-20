@@ -65,7 +65,7 @@ During training, each audio sample is randmoly cropped into 1s clip and fed into
 
 
 ## Results 
-NB! the training is still on-going. The results presented are from a trained model at a training step of 120k out of 500k.
+NB! the training is still on-going. The results presented are from a trained model at a training step of 120k out of 500k. The quality is expected to further improve with further training.
 
 | Ground Truth (test sample) | Reconstructed Sample (v1.2) | Reconstructed Sample (v1.1) |
 | --- |----------------------------|----------------------|
