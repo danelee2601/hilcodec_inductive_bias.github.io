@@ -65,7 +65,7 @@ During training, each audio sample is randmoly cropped into 1s clip and fed into
 
 
 ## Results 
-NB! the training is still on-going. The results presented are from a trained model at a training step of 120k out of 500k. The quality is expected to further improve with further training.
+The results presented are from a trained model at a training step of 200k out of 500k with effective batch size of 32. 
 
 | Ground Truth (test sample) | Reconstructed Sample (v1.2) | Reconstructed Sample (v1.1) |
 | --- |----------------------------|----------------------|
@@ -86,7 +86,7 @@ PESQ and SI-SDR scores are typically considered to be quite good when above 2.0,
 
 | Model | PESQ | SI-SDR |
 | ----- | ----- | ----- | 
-| HAC v1.2 | 2.35 | 8.1 |
+| HAC v1.2 | 2.4 | 8.6 |
 
 
 
