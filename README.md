@@ -71,6 +71,7 @@ PESQ and SI-SDR scores are typically considered to be quite good when above 2.0,
 
 | Model | PESQ | SI-SDR |
 | ----- | ----- | ----- | 
+| HAC v1.3 | 2.5 | 8.9 |
 | HAC v1.2 | 2.4 | 8.6 |
 
 
